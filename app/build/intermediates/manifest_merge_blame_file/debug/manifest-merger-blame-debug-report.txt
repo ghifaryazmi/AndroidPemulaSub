@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.submissionbeginner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:6:5-27:19
+14        android:allowBackup="true"
+14-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /home/ghifary/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:12:9-40
+23        <activity
+23-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:13:9-15:67
+24            android:name="com.example.submissionbeginner.About"
+24-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:13:19-40
+25            android:label="About"
+25-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:14:13-34
+26            android:parentActivityName="com.example.submissionbeginner.MainActivity" />
+26-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:15:13-55
+27        <activity
+27-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:16:9-19:67
+28            android:name="com.example.submissionbeginner.Details"
+28-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:17:13-36
+29            android:label="Details"
+29-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:18:13-36
+30            android:parentActivityName="com.example.submissionbeginner.MainActivity" />
+30-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:19:13-55
+31        <activity android:name="com.example.submissionbeginner.MainActivity" >
+31-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:20:9-26:20
+31-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:20:19-47
+32            <intent-filter>
+32-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:21:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:22:17-69
+33-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:24:17-77
+35-->/home/ghifary/AndroidStudioProjects/SubmissionBeginner/app/src/main/AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
